@@ -1,0 +1,73 @@
+
+/* tag selectors */
+body {
+text-align: center;
+border-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-size: 25px;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+}
+p {
+  font-size: 11px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  margin-bottom: 70px;
+}
+.containner {
+  font-size: 0;
+  padding-top: 110px;
+
+}
+.boxDesign {
+  display: inline-block;
+  width: 9.375rem;
+  padding: 40px 30px;
+  text-align: left;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+  border-radius: 7px 0 0 7px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+  border-radius: 0 7px 7px 0;
+}
+button {
+  padding: 8px 15px;
+  border-radius: 28px;
+  background-color: white;
+  border: 2px solid;
+  color: inherit;
+}
+.btn:hover {
+  border: 2px solid white;
+  background-color: inherit;
+  color: white;
+cursor: pointer;
+}
+
+@media (max-width: 700px) {
+
+.boxDesign {
+  display: block;
+  border-radius: 0;
+  margin: 0 auto;
+  width: 35%;
+}
+.sedans {
+  border-radius: 7px 7px 0 0;
+}
+.luxury{
+  border-radius: 0 0 7px 7px;
+}
+}
